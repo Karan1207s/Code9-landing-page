@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code9 — Build the Future Together</title>
+  <meta name="description" content="Code9 is an elite global tech community for builders, coders, and creators. Collaborate, learn, and ship real products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-wordmark">Code<em>9</em></div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Code9 Home">Code<em>9</em></a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#benefits" class="nav-link">Benefits</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#testimonials" class="nav-link">Members</a></li>
+      </ul>
+      <a href="#join" class="nav-cta" aria-label="Get Early Access">
+        Get Early Access
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M1 6h10M6 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="mobile-close" id="mobile-close" aria-label="Close menu">✕</button>
+    <ul role="list">
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#benefits" class="mobile-link">Benefits</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#testimonials" class="mobile-link">Members</a></li>
+      <li><a href="#join" class="mobile-link mobile-cta">Join Free →</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="home" class="hero" aria-labelledby="hero-heading">
+    <div class="hero-container">
+      <div class="hero-left">
+        <div class="hero-eyebrow reveal-up">
+          <span class="eyebrow-dot" aria-hidden="true"></span>
+          Now Accepting Members — Code9
+        </div>
+        <h1 id="hero-heading" class="hero-title reveal-up">
+          Build.<br/>
+          Collaborate.<br/>
+          <em>Ship.</em>
+        </h1>
+        <p class="hero-sub reveal-up">Code9 is where exceptional developers come to grow, build real products, and accelerate their careers through community and code.</p>
+        <div class="hero-actions reveal-up">
+          <a href="#join" class="btn-primary magnetic">Join Code9 Free</a>
+          <a href="#projects" class="btn-ghost">See Our Work</a>
+        </div>
+        <div class="hero-stats reveal-up" role="list" aria-label="Community statistics">
+          <div class="stat" role="listitem">
+            <div class="stat-number" data-target="4200" aria-label="4200 plus active members">0</div>
+            <div class="stat-label">Active Members</div>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat" role="listitem">
+            <div class="stat-number" data-target="120" aria-label="120 plus projects shipped">0</div>
+            <div class="stat-label">Projects Shipped</div>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat" role="listitem">
+            <div class="stat-number" data-target="38" aria-label="38 countries">0</div>
+            <div class="stat-label">Countries</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right reveal-up" aria-hidden="true">
+        <div class="code-window">
+          <div class="window-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="window-title">code9.community</span>
+          </div>
+          <div class="code-lines">
+            <div class="code-line"><span class="cl-keyword">const</span> <span class="cl-var">developer</span> <span class="cl-op">=</span> <span class="cl-fn">you</span><span class="cl-p">();</span></div>
+            <div class="code-line"><span class="cl-keyword">const</span> <span class="cl-var">community</span> <span class="cl-op">=</span> <span class="cl-string">"Code9"</span><span class="cl-p">;</span></div>
+            <div class="code-line"> </div>
+            <div class="code-line"><span class="cl-fn">join</span><span class="cl-p">(</span><span class="cl-var">developer</span><span class="cl-p">,</span> <span class="cl-var">community</span><span class="cl-p">)</span></div>
+            <div class="code-line cl-indent"><span class="cl-p">.</span><span class="cl-fn">learn</span><span class="cl-p">(</span><span class="cl-string">"real skills"</span><span class="cl-p">)</span></div>
+            <div class="code-line cl-indent"><span class="cl-p">.</span><span class="cl-fn">build</span><span class="cl-p">(</span><span class="cl-string">"real products"</span><span class="cl-p">)</span></div>
+            <div class="code-line cl-indent"><span class="cl-p">.</span><span class="cl-fn">earn</span><span class="cl-p">(</span><span class="cl-string">"real income"</span><span class="cl-p">);</span></div>
+            <div class="code-line"> </div>
+            <div class="code-line"><span class="cl-comment">// Your next chapter starts here</span></div>
+            <div class="cursor-blink" aria-hidden="true">█</div>
+          </div>
+        </div>
+        <div class="hero-tag-cluster" aria-hidden="true">
+          <span class="tag">Open Source</span>
+          <span class="tag">Mentorship</span>
+          <span class="tag">Real Projects</span>
+          <span class="tag">Paid Challenges</span>
+          <span class="tag">Global Network</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Build Real Products</span>
+      <span aria-hidden="true">◆</span>
+      <span>Real Mentors</span>
+      <span aria-hidden="true">◆</span>
+      <span>4200+ Members</span>
+      <span aria-hidden="true">◆</span>
+      <span>38 Countries</span>
+      <span aria-hidden="true">◆</span>
+      <span>Paid Challenges</span>
+      <span aria-hidden="true">◆</span>
+      <span>Real Income</span>
+      <span aria-hidden="true">◆</span>
+      <span>Ship Fast</span>
+      <span aria-hidden="true">◆</span>
+      <span>Build Real Products</span>
+      <span aria-hidden="true">◆</span>
+      <span>Real Mentors</span>
+      <span aria-hidden="true">◆</span>
+      <span>4200+ Members</span>
+      <span aria-hidden="true">◆</span>
+      <span>38 Countries</span>
+      <span aria-hidden="true">◆</span>
+      <span>Paid Challenges</span>
+      <span aria-hidden="true">◆</span>
+      <span>Real Income</span>
+      <span aria-hidden="true">◆</span>
+      <span>Ship Fast</span>
+      <span aria-hidden="true">◆</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section-reveal" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-label">About Us</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 id="about-heading" class="section-title">Not just a community.<br/><em>A career accelerator.</em></h2>
+        </div>
+        <div class="about-right">
+          <p class="about-body">We believe the best developers are made through doing — real projects, real mentors, real feedback. Code9 is the infrastructure for your growth.</p>
+          <div class="pillars-grid">
+            <article class="pillar-card reveal-card" data-delay="0">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M7 12l3 3 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3>Mission</h3>
+              <p>To give every developer the resources, mentorship, and challenges needed to build real-world impact.</p>
+            </article>
+            <article class="pillar-card reveal-card" data-delay="100">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l10 5.5v9L12 22 2 16.5v-9L12 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              </div>
+              <h3>Vision</h3>
+              <p>To become the world's most trusted launchpad for developers who want to build the next generation of technology.</p>
+            </article>
+            <article class="pillar-card reveal-card" data-delay="200">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3>Values</h3>
+              <p>Radical transparency, accountability, shipping culture, continuous learning, and community over competition.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services section-reveal" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-label">What We Offer</div>
+      <h2 id="services-heading" class="section-title">Everything you need<br/><em>to ship.</em></h2>
+      <div class="bento-grid" role="list">
+
+        <article class="bento-card bento-large reveal-card" data-delay="0" role="listitem">
+          <div class="bento-number" aria-hidden="true">01</div>
+          <div class="bento-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M9 13l4 4-4 4M17 21h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Coding Workshops</h3>
+          <p>Weekly live sessions hosted by senior engineers covering full-stack, DevOps, AI/ML, system design, and more. All recorded for async learners.</p>
+          <div class="bento-tag">Live + Async</div>
+        </article>
+
+        <article class="bento-card bento-tall reveal-card" data-delay="80" role="listitem">
+          <div class="bento-number" aria-hidden="true">02</div>
+          <div class="bento-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4l12 6.5v11L16 28 4 21.5v-11L16 4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 10.5l12 6.5 12-6.5M16 28V17" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Build-in-Public Projects</h3>
+          <p>Ship real SaaS products and open-source tools alongside a team. Not tutorials — actual products used by real users.</p>
+          <div class="bento-tag">Ship Real Things</div>
+        </article>
+
+        <article class="bento-card reveal-card" data-delay="160" role="listitem">
+          <div class="bento-number" aria-hidden="true">03</div>
+          <div class="bento-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="10" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M8 28a8 8 0 0116 0" stroke="currentColor" stroke-width="1.5"/><path d="M24 14a4 4 0 010 8M8 14a4 4 0 000 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Mentorship Network</h3>
+          <p>1-on-1 access to senior engineers, founders, and CTOs who've been where you're going.</p>
+          <div class="bento-tag">1-on-1</div>
+        </article>
+
+        <article class="bento-card reveal-card" data-delay="240" role="listitem">
+          <div class="bento-number" aria-hidden="true">04</div>
+          <div class="bento-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4v24M4 16h24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="10" width="12" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Paid Challenges</h3>
+          <p>Compete in sponsored hackathons and bounty challenges with real cash prizes — and portfolio-worthy outcomes.</p>
+          <div class="bento-tag">Cash + Portfolio</div>
+        </article>
+
+        <article class="bento-card reveal-card" data-delay="320" role="listitem">
+          <div class="bento-number" aria-hidden="true">05</div>
+          <div class="bento-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M28 8H4v16h24V8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 12l12 8 12-8" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Job Board & Referrals</h3>
+          <p>Exclusive job listings from vetted companies who want Code9 talent. Warm referrals from your community network.</p>
+          <div class="bento-tag">Exclusive Access</div>
+        </article>
+
+        <article class="bento-card bento-wide reveal-card" data-delay="400" role="listitem">
+          <div class="bento-number" aria-hidden="true">06</div>
+          <div class="bento-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 24l7-7 4 4 5-5 8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="2" width="28" height="28" rx="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Portfolio Reviews & Career Coaching</h3>
+          <p>Monthly critique sessions where senior engineers review your portfolio, résumé, and GitHub — with actionable, specific feedback that actually moves the needle.</p>
+          <div class="bento-tag">Monthly Sessions</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section id="benefits" class="benefits section-reveal" aria-labelledby="benefits-heading">
+    <div class="container">
+      <div class="section-label">Why Code9</div>
+      <h2 id="benefits-heading" class="section-title">The unfair<br/><em>advantage.</em></h2>
+      <div class="benefits-layout">
+        <article class="benefit-main reveal-card" data-delay="0">
+          <div class="benefit-accent" aria-hidden="true">⟶</div>
+          <h3>Learn by shipping, not watching</h3>
+          <p>Every concept is immediately applied to a real product. No tutorials that end at "Hello World." You leave Code9 with a portfolio of shipped things, not certificates.</p>
+          <ul class="benefit-list" role="list">
+            <li role="listitem">Real codebases from day one</li>
+            <li role="listitem">PR reviews by working engineers</li>
+            <li role="listitem">Deploy to real users</li>
+          </ul>
+        </article>
+        <div class="benefits-side">
+          <article class="benefit-card reveal-card" data-delay="100">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2l9 5v8l-9 5-9-5V7l9-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Structured Learning Paths</h4>
+            <p>Frontend, backend, mobile, DevOps, and AI/ML — follow a structured path or mix and match based on your goals.</p>
+          </article>
+          <article class="benefit-card reveal-card" data-delay="180">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M7 11l2 2 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Accountability System</h4>
+            <p>Weekly check-ins, project deadlines, and a cohort who holds you to your commitments. Accountability as infrastructure.</p>
+          </article>
+          <article class="benefit-card reveal-card" data-delay="260">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 16l4-4 4 4 4-6 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4>Income Opportunities</h4>
+            <p>Bounties, challenges, freelance referrals, and revenue sharing on community products. Code9 memberships that actually pay back.</p>
+          </article>
+          <article class="benefit-card reveal-card" data-delay="340">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2v4M11 16v4M2 11h4M16 11h4M4.93 4.93l2.83 2.83M14.24 14.24l2.83 2.83M4.93 17.07l2.83-2.83M14.24 7.76l2.83-2.83" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Global Network</h4>
+            <p>38 countries, one community. Build connections, find co-founders, collaborators, and references across time zones.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects section-reveal" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-label">Shipped Work</div>
+      <h2 id="projects-heading" class="section-title">Things we've<br/><em>actually built.</em></h2>
+      <div class="projects-grid" role="list">
+
+        <article class="project-card reveal-card" data-delay="0" role="listitem">
+          <div class="project-header">
+            <div class="project-meta">
+              <span class="project-type">SaaS</span>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="3" y="7" width="22" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M9 12l3 3-3 3M14 18h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <h3>DevTrack Pro</h3>
+          <p>A developer productivity dashboard that tracks GitHub activity, pull requests, and ships beautiful weekly summaries. Used by 500+ teams.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span>React</span><span>Node.js</span><span>GitHub API</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal-card" data-delay="100" role="listitem">
+          <div class="project-header">
+            <div class="project-meta">
+              <span class="project-type">Open Source</span>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 3C8.48 3 4 7.48 4 13c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.69C8.72 20.91 8.14 18.97 8.14 18.97c-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.33.85 0 1.7.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.82-2.34 4.66-4.57 4.91.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48C21.14 21.16 24 17.42 24 13c0-5.52-4.48-10-10-10z" fill="currentColor"/></svg>
+            </div>
+          </div>
+          <h3>OpenStack CLI</h3>
+          <p>A universal command-line tool that wraps the most common developer workflows into intuitive, composable commands. 3.2k GitHub stars.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span>Go</span><span>CLI</span><span>Open Source</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal-card" data-delay="200" role="listitem">
+          <div class="project-header">
+            <div class="project-meta">
+              <span class="project-type">Mobile App</span>
+              <span class="project-year">2023</span>
+            </div>
+            <div class="project-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="7" y="2" width="14" height="24" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M12 22h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+          <h3>Cohort App</h3>
+          <p>A mobile-first community platform for async learning cohorts — with accountability threads, progress sharing, and live event scheduling.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span>React Native</span><span>Firebase</span><span>Expo</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal-card" data-delay="300" role="listitem">
+          <div class="project-header">
+            <div class="project-meta">
+              <span class="project-type">AI Tool</span>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="11" stroke="currentColor" stroke-width="1.5"/><path d="M10 10h8M10 14h5M10 18h7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+          <h3>ReviewBot</h3>
+          <p>AI-powered code review tool that gives senior-engineer-quality feedback on pull requests. Trained on real Code9 mentor reviews.</p>
+          <div class="project-tags" aria-label="Technologies used">
+            <span>Python</span><span>LLM</span><span>GitHub Actions</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="testimonials section-reveal" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-label">Member Stories</div>
+      <h2 id="testimonials-heading" class="section-title">Straight from<br/><em>the community.</em></h2>
+      <div class="testi-grid" role="list">
+
+        <article class="testi-card reveal-card" data-delay="0" role="listitem">
+          <div class="testi-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>
+            <p>"Code9 gave me the structure I was missing. Six months in and I shipped three real products — not side projects that die in drafts, but things people actually use."</p>
+          </blockquote>
+          <footer class="testi-author">
+            <div class="testi-avatar" aria-hidden="true">AK</div>
+            <div>
+              <div class="testi-name">Alex Kim</div>
+              <div class="testi-role">Software Engineer @ Stripe</div>
+            </div>
+          </footer>
+        </article>
+
+        <article class="testi-card reveal-card" data-delay="120" role="listitem">
+          <div class="testi-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>
+            <p>"I joined Code9 with zero professional experience. Six months later I had a portfolio of three shipped products and two job offers. The community doesn't let you stagnate."</p>
+          </blockquote>
+          <footer class="testi-author">
+            <div class="testi-avatar" aria-hidden="true">JS</div>
+            <div>
+              <div class="testi-name">Jane Smith</div>
+              <div class="testi-role">Full Stack Dev @ TechCorp</div>
+            </div>
+          </footer>
+        </article>
+
+        <article class="testi-card reveal-card" data-delay="240" role="listitem">
+          <div class="testi-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>
+            <p>"The paid challenges are the hidden gem. I won two competitions, added the projects to my portfolio, and those exact projects got me hired. This community is literally a career cheat code."</p>
+          </blockquote>
+          <footer class="testi-author">
+            <div class="testi-avatar" aria-hidden="true">MJ</div>
+            <div>
+              <div class="testi-name">Mike Johnson</div>
+              <div class="testi-role">Indie Hacker · $8K MRR</div>
+            </div>
+          </footer>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN -->
+  <section id="join" class="join section-reveal" aria-labelledby="join-heading">
+    <div class="container">
+      <div class="join-inner">
+        <div class="join-left">
+          <div class="section-label">Join Code9</div>
+          <h2 id="join-heading" class="section-title">Your best work<br/><em>is ahead of you.</em></h2>
+          <p class="section-sub">Start free. No credit card. No fluff. Just a community that takes building seriously.</p>
+          <div class="join-perks" role="list" aria-label="Membership benefits">
+            <div class="join-perk" role="listitem">
+              <span aria-hidden="true">✓</span> Free forever plan
+            </div>
+            <div class="join-perk" role="listitem">
+              <span aria-hidden="true">✓</span> Access to all workshops
+            </div>
+            <div class="join-perk" role="listitem">
+              <span aria-hidden="true">✓</span> Community Discord access
+            </div>
+            <div class="join-perk" role="listitem">
+              <span aria-hidden="true">✓</span> First project within 7 days
+            </div>
+          </div>
+        </div>
+        <div class="join-right">
+          <form class="join-form" id="join-form" novalidate aria-label="Join Code9 membership form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Alex" required autocomplete="given-name" aria-required="true"/>
+                <div class="field-error" id="fname-error" role="alert" aria-live="polite"></div>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Chen" required autocomplete="family-name" aria-required="true"/>
+                <div class="field-error" id="lname-error" role="alert" aria-live="polite"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="alex@example.com" required autocomplete="email" aria-required="true"/>
+              <div class="field-error" id="email-error" role="alert" aria-live="polite"></div>
+            </div>
+            <div class="form-group">
+              <label for="role">Your Current Role</label>
+              <select id="role" name="role" required aria-required="true">
+                <option value="" disabled selected>Select your level</option>
+                <option>Student / Learner</option>
+                <option>Junior Developer (0–2 yrs)</option>
+                <option>Mid-Level Developer (2–5 yrs)</option>
+                <option>Senior Developer (5+ yrs)</option>
+                <option>Founder / Entrepreneur</option>
+              </select>
+              <div class="field-error" id="role-error" role="alert" aria-live="polite"></div>
+            </div>
+            <div class="form-group">
+              <label for="interest">What brings you to Code9? <span class="label-optional">(optional)</span></label>
+              <textarea id="interest" name="interest" rows="3" placeholder="Tell us what you want to build..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full magnetic" id="submit-btn" aria-label="Join the Code9 community">
+              <span id="btn-text">Join the Community →</span>
+            </button>
+            <div class="form-success" id="form-success" role="alert" aria-live="polite">
+              <span aria-hidden="true">✓</span>
+              <div>
+                <strong>You're in! Welcome to Code9.</strong>
+                <p>Check your email for your community invite link.</p>
+              </div>
+            </div>
+            <p class="form-note">Free forever · No spam · Unsubscribe anytime</p>
+          </form>
+        </div>
+      </div>
+
+      <div class="contact-strip">
+        <a href="mailto:info@code9community.com" class="contact-link" aria-label="Email Code9">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 8l10 6 10-6" stroke="currentColor" stroke-width="1.5"/></svg>
+          info@code9community.com
+        </a>
+        <div class="social-row" role="list" aria-label="Social media links">
+          <a href="#" class="social-btn" aria-label="Instagram" role="listitem">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter / X" role="listitem">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="LinkedIn" role="listitem">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M8 11v5M8 8v.5M12 16v-5M12 11c0-2 4-2 4 0v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="GitHub" role="listitem">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">Code<em>9</em></div>
+          <p>Built for developers who build.</p>
+        </div>
+        <nav class="footer-nav-group" aria-label="Footer navigation">
+          <div class="footer-nav-col">
+            <div class="footer-nav-label">Product</div>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+          </div>
+          <div class="footer-nav-col">
+            <div class="footer-nav-label">Community</div>
+            <a href="#benefits">Benefits</a>
+            <a href="#testimonials">Members</a>
+            <a href="#join">Join Free</a>
+          </div>
+          <div class="footer-nav-col">
+            <div class="footer-nav-label">Connect</div>
+            <a href="mailto:info@code9community.com">Email Us</a>
+            <a href="#">Discord</a>
+            <a href="#">GitHub</a>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Code9 Community · All rights reserved</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
