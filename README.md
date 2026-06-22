@@ -101,6 +101,17 @@ index.html
 
 inside your browser.
 
+<img width="1920" height="1080" alt="Screenshot (182)" src="https://github.com/user-attachments/assets/c0ab2873-45c5-46a1-afbd-90223550b89b" />
+<img width="1920" height="1080" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/dbd01614-5b91-43f1-94ae-d419f07849b1" />
+<img width="1920" height="1080" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/eb8a9e28-0597-423b-8274-0b9200ad9c86" />
+<img width="1920" height="1080" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/2c4c6e48-b2cf-43e3-a762-fda904740f02" />
+<img width="1920" height="1080" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/7ea675ab-62b8-4b55-9cf1-7432ceb595b1" />
+<img width="1920" height="1080" alt="Screenshot (187)" src="https://github.com/user-attachments/assets/76f0477a-f234-46f9-9a8b-989231aa6e29" />
+<img width="1920" height="1080" alt="Screenshot (188)" src="https://github.com/user-attachments/assets/4405a15f-3bcb-464d-b620-e5ae76171d9b" />
+<img width="1920" height="1080" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/08f40287-20a2-493e-9198-f34103b4c510" />
+<img width="1920" height="1080" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/3e9fdb14-dbc9-4d58-9440-289787800736" />
+
+
 No installation required.
 
 ---
