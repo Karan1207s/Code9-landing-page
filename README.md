@@ -103,14 +103,6 @@ inside your browser.
 
 <img width="1901" height="1078" alt="Screenshot 2026-06-22 143748" src="https://github.com/user-attachments/assets/7ca95bd7-f662-425b-aefd-b7efabb8beb3" />
 <img width="1896" height="981" alt="Screenshot 2026-06-22 143811" src="https://github.com/user-attachments/assets/ba6b78b5-e101-4c7f-9de9-fd04b2534eb9" />
-<img width="1898" height="981" alt="Screenshot 2026-06-22 143829" src="https://github.com/user-attachments/assets/d2d91e01-3445-48aa-82b4-3bec16d4ebb0" />
-<img width="1898" height="981" alt="Screenshot 2026-06-22 143845" src="https://github.com/user-attachments/assets/3e12f779-1a4a-407d-a7e2-d61e8bfd50d0" />
-<img width="1898" height="982" alt="Screenshot 2026-06-22 143902" src="https://github.com/user-attachments/assets/790eee76-9e41-4147-b4cb-4ef4e1c559c8" />
-<img width="1900" height="982" alt="Screenshot 2026-06-22 143923" src="https://github.com/user-attachments/assets/01b4bf65-ebf4-48ee-851f-f8d189b9c2db" />
-<img width="1895" height="981" alt="Screenshot 2026-06-22 143942" src="https://github.com/user-attachments/assets/9c8897af-9f5c-4821-91a4-ae4f1f9a2564" />
-<img width="1900" height="981" alt="Screenshot 2026-06-22 144001" src="https://github.com/user-attachments/assets/0c008ba1-5436-429f-a335-ee82a92ca51d" />
-<img width="1897" height="917" alt="Screenshot 2026-06-22 144050" src="https://github.com/user-attachments/assets/d55fba5c-7875-4b60-a90e-17de2a013a0d" />
-
 
 No installation required.
 
