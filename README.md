@@ -101,7 +101,6 @@ index.html
 
 inside your browser.
 
-<img width="1920" height="1080" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/a061870f-05a2-441f-b3b5-6c4752bfff74" />
 <img width="1901" height="1078" alt="Screenshot 2026-06-22 143748" src="https://github.com/user-attachments/assets/7ca95bd7-f662-425b-aefd-b7efabb8beb3" />
 <img width="1896" height="981" alt="Screenshot 2026-06-22 143811" src="https://github.com/user-attachments/assets/ba6b78b5-e101-4c7f-9de9-fd04b2534eb9" />
 <img width="1898" height="981" alt="Screenshot 2026-06-22 143829" src="https://github.com/user-attachments/assets/d2d91e01-3445-48aa-82b4-3bec16d4ebb0" />
